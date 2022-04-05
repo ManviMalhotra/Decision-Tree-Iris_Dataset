@@ -12,4 +12,6 @@ If we decide to stop the process after a split, the last nodes created are calle
 The deeper topic I always wanted to explore is: How does decision tree decide where to split. 
 A one line answer to this: A point which minimize the loss function is chosen for the split. 
 And how is this loss function chosen? 
-Using Gini Impurity and Enthropy. 
+Using 
+1. Gini Impurity : Gini Impurity is measure of variance across the different classes[1]
+2. Enthropy : Entropy is a measure of chaos within the node. And chaos, in the context of decision trees, is having a node where all classes are equally present in the data.
